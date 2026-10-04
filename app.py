@@ -215,7 +215,7 @@ st.markdown(
 | Annahme | Was passiert, wenn sie verletzt ist | Wer setzt an |
 |---|---|---|
 | **Abgewiesene Lkw kommen nicht wieder** | Wer es später erneut versucht, erhöht das Angebot; Wiederholer machen das Verlustsystem schwerer zu rechnen. | kein Folgestück |
-| **Verluste sind häufig genug zum Messen** | Bei Verlusten von einem Millionstel sieht ein gewöhnlicher Lauf kaum einen abgewiesenen Lkw; die Simulation braucht dann Tricks. | **Seltene Ereignisse (Splitting)** (Folgestück) |
+| **Verluste sind häufig genug zum Messen** | Bei Verlusten von einem Millionstel sieht ein gewöhnlicher Lauf kaum einen abgewiesenen Lkw; die Simulation braucht dann Tricks. | **[Seltene Ereignisse (Splitting)](https://sebastianhanisch-splitting-demo.streamlit.app/)** |
 | **Mit Wartestellplätzen: exponentielle Dauer** | Die Streuung der Dauer verändert den Verlust stark (Abschnitt oben); für allgemeine Dauer gibt es hier keine Formel. | **M/G/1, Kingman-Näherung** (Folgestück) |
 | **Alle Lkw gleich wichtig** | Eilige Lkw dürfen nicht abgewiesen werden; das verschiebt den Verlust zwischen den Klassen. | **Prioritätsklassen** (Folgestück) |
 | **Konstante Ankunftsrate** | Echte Gates haben Wellen; Erlang B muss dann zu jeder Zeit mit dem aktuellen Angebot gerechnet werden. | **[Zeitvariable Ankünfte](https://sebastianhanisch-time-varying-arrivals-demo.streamlit.app/)** |
