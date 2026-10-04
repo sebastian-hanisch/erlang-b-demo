@@ -219,7 +219,7 @@ st.markdown(
 | **Mit Wartestellplätzen: exponentielle Dauer** | Die Streuung der Dauer verändert den Verlust stark (Abschnitt oben); für allgemeine Dauer gibt es hier keine Formel. | **[M/G/1, Kingman-Näherung](https://sebastianhanisch-mg1-kingman-demo.streamlit.app/)** |
 | **Alle Lkw gleich wichtig** | Eilige Lkw dürfen nicht abgewiesen werden; das verschiebt den Verlust zwischen den Klassen. | **[Prioritätsklassen](https://sebastianhanisch-priority-queue-demo.streamlit.app/)** |
 | **Konstante Ankunftsrate** | Echte Gates haben Wellen; Erlang B muss dann zu jeder Zeit mit dem aktuellen Angebot gerechnet werden. | **[Zeitvariable Ankünfte](https://sebastianhanisch-time-varying-arrivals-demo.streamlit.app/)** |
-| **Ein Gate** | Abgewiesene Lkw laufen in die nächste Station (Straße, anderes Gate); Verluste fließen durch das Netz. | **Jackson-Netze** (Folgestück) |
+| **Ein Gate** | Abgewiesene Lkw laufen in die nächste Station (Straße, anderes Gate); Verluste fließen durch das Netz. | **[Jackson-Netze](https://sebastianhanisch-jackson-network-demo.streamlit.app/)** |
 """
 )
 st.caption(
