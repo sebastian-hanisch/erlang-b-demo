@@ -92,7 +92,7 @@ Kein Folgestück: Wiederholer abgewiesener Lkw.
 
 ## Tests
 
-124 Tests, rund eine halbe Minute: Erlang B von Hand und gegen die Summenformel (auch für 200 Spuren), die Kette mit Stellplätzen von Hand und gegen ein lineares
+136 Tests, rund 90 s (davon `test_oracle_loss_system.py`: Verlust, Auslastung und Wartezeit gegen das lineare System, Erlang B in Bruchrechnung, Simulation gegen eine Kunde-für-Kunde-Rechnung für alle vier Dauer-Verteilungen): Erlang B von Hand und gegen die Summenformel (auch für 200 Spuren), die Kette mit Stellplätzen von Hand und gegen ein lineares
 System, Überlast (B → 1 − c/a), Bemessung auf Minimalität, k → ∞ gegen Erlang C, die Verteilungen der Dauer einzeln (Mittel, Median, Schwanz), eine von
 Hand gerechnete Mini-Instanz (Ankunftszeiten, Verlust, Wartezeit, alle Zeitintegrale), das Gesetz von Little als exakte Pfad-Identität, Invarianten des
 Zustands, gleicher Seed gleiches Ergebnis, Simulation gegen die Kette, die Unempfindlichkeit von Erlang B und ihr Bruch mit Stellplätzen,
