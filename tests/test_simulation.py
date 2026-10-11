@@ -36,7 +36,7 @@ def test_lognormal_has_the_stated_median_and_a_heavy_tail():
     rng = S.SplitMix64(11)
     xs = sorted(S.draw_service("logn", rng) for _ in range(100_000))
     assert xs[len(xs) // 2] == pytest.approx(1 / math.sqrt(5), rel=0.02)               # Median exp(μ)
-    assert sum(1 for x in xs if x > 5) / len(xs) > 0.02                                # schwerer Schwanz (ein Fünffaches des Mittels)
+    assert sum(1 for x in xs if x > 5) / len(xs) > 0.02                                # schwerer Tail (ein Fünffaches des Mittels)
 
 
 # ---------------------------------------------------------------- Mini-Instanz von Hand
